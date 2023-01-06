@@ -8,7 +8,7 @@ r = eval(radii_string.replace(r"\left[", "[").replace(r"\right]", "]"))
 c = [np.array(i) for i in eval(centers_string.replace(r"\left[", "[").replace(r"\right]", "]").replace(r"\left(", "(").replace(r"\right)", ")"))]
 circles = [[c[i], r[i]] for i in range(len(r))]
 
-# circles = [[np.array(x,y), r],...]
+# circles = [[np.array([x,y]), r],...]
 
 NUM_OF_CIRCLES = len(circles)
 
