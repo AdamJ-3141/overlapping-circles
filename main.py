@@ -154,10 +154,3 @@ def segments(p):
 total_poly_area = sum([area(poly) for poly in polygons])
 total_area = total_poly_area + total_sector_area
 print("Total area:", total_area)
-
-
-# Output circles to desmos
-# radii = str([i[1] for i in circles]).replace("[", r"\left[").replace("]", r"\right]").replace(" ", "")
-# centers = str([tuple(i[0]) for i in circles]).replace("[", r"\left[").replace("]", r"\right]").replace("(", r"\left(").replace(")", r"\right)").replace(" ", "")
-# print(radii)
-# print(centers)
